@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class SiteInfoController {
     @PostMapping("/show")
-    public String bid(@RequestBody SiteInfo  siteInfo ) {
+    public String bid( @RequestBody SiteInfo  siteInfo ) {
         return siteInfo.toString();
     }
 }

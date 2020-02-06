@@ -1,15 +1,13 @@
 package com.example.demo.dto;
 
 import com.alibaba.fastjson.annotation.JSONField;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 
 import java.util.List;
 
 @ToString
 @Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 public class SiteInfo {
