@@ -63,6 +63,7 @@
 	</dependencies>
 
 	<build>
+<!--		this shoud de a final name-->
 		<finalName>fast-json</finalName>
 		<plugins>
 			<plugin>
